@@ -32,7 +32,7 @@ public abstract class Trace {
      */
     public static void beginSection(String tag) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
-            android.os.Trace.beginSection(tag);
+            // android.os.Trace.beginSection(tag);
         }
     }
 
@@ -44,7 +44,7 @@ public abstract class Trace {
      */
     public static void endSection() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
-            android.os.Trace.endSection();
+            // android.os.Trace.endSection();
         }
     }
 
